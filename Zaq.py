@@ -3965,7 +3965,7 @@ def cutter():
 
     print ('\x1b[1;32mFile Save In /sdcard/' + fp).center(50)
 
-    print '\x1b[1;97m======================================================='
+    print '\x1b[1;37m======================================================='
 
     raw_input('PRESS ENTER TO BACK ')
 
