@@ -74,7 +74,7 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers = {
 
     'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.92 Mobile Safari/537.36' }).json()['country_name'].upper()
 
-logo = '
+logo = """'
 \x1b[1;37m_______  _______  _______ 
 
 \x1b[1;37m/ ___   )(  ___  )(  ___  )
